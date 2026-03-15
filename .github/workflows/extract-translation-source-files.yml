@@ -5,20 +5,20 @@
 name: Extract Translation Source Files
 
 on:
-  workflow_dispatch:    # by request
+  workflow_dispatch: # by request
     inputs:
       repo:
-        description: 'Repository to extract translation source files from (leave blank to run all)'
+        description: "Repository to extract translation source files from (leave blank to run all)"
         required: false
         type: string
       ref:
-        description: 'If repository is specified, the ref to extract translation source files from (leave blank to use the default branch)'
+        description: "If repository is specified, the ref to extract translation source files from (leave blank to use the default branch)"
         required: false
-        default: ''
+        default: ""
         type: string
 
   schedule:
-    - cron: '0 0 * * *'  # every day at midnight
+    - cron: "0 0 * * *" # every day at midnight
 
 jobs:
   setup-matrix:
@@ -154,23 +154,23 @@ jobs:
     outputs:
       branch: ${{ steps.dynamic_branch.outputs.branch }}
     steps:
-    # sets the job output that creates a unique branch name
-    - name: dynamically set branch job output variable
-      id: dynamic_branch
-      run: echo "branch=automated/extract-translation-source-files-$(date +'%Y%m%dT%H%M%S')" >> $GITHUB_OUTPUT
+      # sets the job output that creates a unique branch name
+      - name: dynamically set branch job output variable
+        id: dynamic_branch
+        run: echo "branch=automated/extract-translation-source-files-$(date +'%Y%m%dT%H%M%S')" >> $GITHUB_OUTPUT
 
-    # clones the openedx-translations repo so a branch can be added in the next step
-    - name: echo branch name
-      id: date
-      run: echo $BRANCH
-    - name: clone openedx/openedx-translations
-      uses: actions/checkout@v6
+      # clones the openedx-translations repo so a branch can be added in the next step
+      - name: echo branch name
+        id: date
+        run: echo $BRANCH
+      - name: clone openedx/openedx-translations
+        uses: actions/checkout@v6
 
-    # creates the branch where all the translations will be added to
-    - name: make and push a new branch
-      run: |
-        git checkout -b ${{ steps.dynamic_branch.outputs.branch }}
-        git push --set-upstream origin ${{ steps.dynamic_branch.outputs.branch }}
+      # creates the branch where all the translations will be added to
+      - name: make and push a new branch
+        run: |
+          git checkout -b ${{ steps.dynamic_branch.outputs.branch }}
+          git push --set-upstream origin ${{ steps.dynamic_branch.outputs.branch }}
 
   python-translations:
     if: ${{ fromJson(needs.setup-matrix.outputs.has_python_repos) == true }}
@@ -196,10 +196,10 @@ jobs:
         run: sudo apt install -y gettext
 
       # Clones the  repository
-      - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
+      - name: clone openedx/${{ matrix.repo }}
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.repository_owner }}/${{ matrix.repo }}
+          repository: openedx/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
           path: translations/${{ matrix.repo }}
 
@@ -217,7 +217,7 @@ jobs:
         uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.12'
+          python-version: "3.12"
           cache: pip
           # The `edx-platf*rm` wildcard will be expanded to `edx-platform` if its requirement file exists,
           # otherwise it will be omitted
@@ -342,10 +342,10 @@ jobs:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
-      - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
+      - name: clone openedx/${{ matrix.repo }}
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.repository_owner }}/${{ matrix.repo }}
+          repository: openedx/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
           path: translations/${{ matrix.repo }}
 
@@ -409,10 +409,10 @@ jobs:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
-      - name: clone ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
+      - name: clone openedx/${{ matrix.repository_config.repo }}
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
+          repository: openedx/${{ matrix.repository_config.repo }}
           ref: ${{ github.event.inputs.ref || matrix.repository_config.ref }}
           path: translations/${{ matrix.repository_config.repo }}
 
@@ -420,7 +420,7 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       # Installs Python requirements from translations.txt
       - name: install requirements
@@ -470,7 +470,8 @@ jobs:
 
   merge-translations:
     runs-on: ubuntu-latest
-    needs: [setup-branch, python-translations, js-translations, generic-translations]
+    needs:
+      [setup-branch, python-translations, js-translations, generic-translations]
 
     steps:
       # Clones the openedx-translations repo on the automated/extract-translation-source-files-# branch
