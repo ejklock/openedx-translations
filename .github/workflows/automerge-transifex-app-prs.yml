@@ -4,7 +4,7 @@
 name: Automerge Transifex GH app PRs
 
 on:
-  - pull_request
+  workflow_dispatch: # disabled automatic automerge
 
 jobs:
   automerge-transifex-app-pr:
