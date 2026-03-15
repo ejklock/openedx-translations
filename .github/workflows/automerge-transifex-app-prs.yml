@@ -4,7 +4,7 @@
 name: Automerge Transifex GH app PRs
 
 on:
-  - pull_request
+  workflow_dispatch: # disabled automatic automerge
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
