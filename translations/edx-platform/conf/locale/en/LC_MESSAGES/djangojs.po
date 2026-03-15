@@ -1,14 +1,14 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 #
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -28,18 +28,16 @@ msgstr ""
 "#-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 00:44+0000\n"
+"POT-Creation-Date: 2026-03-15 14:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: cms/static/cms/js/main.js:38
-#: cms/static/js/views/active_video_upload_list.js:36
-#: cms/static/js/views/video_transcripts.js:33
 msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
@@ -59,10 +57,8 @@ msgstr ""
 #: cms/static/js/views/asset.js:85 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:58
 #: cms/static/js/views/course_info_update.js:170
-#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
-#: cms/static/js/views/modals/edit_xblock.js:216 cms/static/js/views/tabs.js:86
-#: cms/static/js/views/tabs.js:118
+#: cms/static/js/views/modals/edit_xblock.js:218
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
@@ -132,7 +128,6 @@ msgstr ""
 #: cms/static/js/certificates/views/signatory_editor.js:140
 #: cms/static/js/views/asset.js:57 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 #: cms/templates/js/certificate-details.underscore:66
 #: cms/templates/js/certificate-details.underscore:67
@@ -154,9 +149,7 @@ msgstr ""
 #: cms/templates/js/partition-group-details.underscore:31
 #: cms/templates/js/partition-group-details.underscore:32
 #: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
-#: cms/templates/js/video-transcripts.underscore:47
 #: cms/templates/js/xblock-outline.underscore:31
 #: cms/templates/js/xblock-outline.underscore:33
 #: common/static/common/templates/discussion/templates.underscore:842
@@ -165,8 +158,7 @@ msgstr ""
 
 #: cms/static/js/certificates/views/signatory_editor.js:143
 #: cms/static/js/views/course_info_update.js:249
-#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:174
+#: cms/static/js/views/list_item.js:63
 #: cms/static/js/views/utils/xblock_utils.js:216
 msgid "Deleting"
 msgstr ""
@@ -180,12 +172,11 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js:267
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:33
-#: cms/static/js/views/modals/base_modal.js:157
+#: cms/static/js/views/modals/base_modal.js:170
 #: cms/static/js/views/modals/course_outline_modals.js:219
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
 #: cms/static/js/views/modals/select_v2_library_content.js:60
-#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1092
@@ -198,7 +189,6 @@ msgstr ""
 #: cms/templates/js/content-group-editor.underscore:32
 #: cms/templates/js/course_info_handouts.underscore:20
 #: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
 #: cms/templates/js/group-configuration-editor.underscore:46
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
@@ -280,11 +270,6 @@ msgstr ""
 msgid "Show Deprecated Settings"
 msgstr ""
 
-#: cms/static/js/factories/textbooks.js:20
-#: cms/static/js/views/pages/group_configurations.js:84
-msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr ""
-
 #: cms/static/js/features/import/factories/import.js:22
 msgid "There was an error during the upload process."
 msgstr ""
@@ -327,42 +312,6 @@ msgstr ""
 
 #: cms/static/js/features/import/views/import.js:298
 msgid "There was an error with the upload"
-msgstr ""
-
-#. Translators: This is the status of a video upload that is queued
-#. waiting for other uploads to complete
-#: cms/static/js/models/active_video_upload.js:9
-msgid "Queued"
-msgstr ""
-
-#. Translators: This is the status of an active video upload
-#: cms/static/js/models/active_video_upload.js:11
-#: cms/static/js/views/assets.js:241 cms/static/js/views/video_thumbnail.js:57
-#: lms/static/js/views/image_field.js:21
-msgid "Uploading"
-msgstr ""
-
-#. Translators: This is the status of a video upload that has
-#. completed successfully
-#: cms/static/js/models/active_video_upload.js:14
-msgid "Upload completed"
-msgstr ""
-
-#. Translators: This is the status of a video upload that has failed
-#: cms/static/js/models/active_video_upload.js:16
-msgid "Upload failed"
-msgstr ""
-
-#: cms/static/js/models/chapter.js:35
-msgid "Chapter name and asset_path are both required"
-msgstr ""
-
-#: cms/static/js/models/chapter.js:40
-msgid "Chapter name is required"
-msgstr ""
-
-#: cms/static/js/models/chapter.js:45
-msgid "asset_path is required"
 msgstr ""
 
 #: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
@@ -475,18 +424,6 @@ msgstr ""
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr ""
 
-#: cms/static/js/models/textbook.js:62
-msgid "Textbook name is required"
-msgstr ""
-
-#: cms/static/js/models/textbook.js:68
-msgid "Please add at least one chapter"
-msgstr ""
-
-#: cms/static/js/models/textbook.js:81
-msgid "All chapters must have a name and asset"
-msgstr ""
-
 #: cms/static/js/models/uploads.js:17
 msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
@@ -512,77 +449,6 @@ msgstr ""
 msgid "Copied"
 msgstr ""
 
-#: cms/static/js/views/active_video_upload.js:42
-#: cms/static/js/views/assets.js:213
-msgid "Your file could not be uploaded"
-msgstr ""
-
-#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/active_video_upload.js:46
-#: cms/static/js/views/modals/course_outline_modals.js:351
-#: cms/static/js/views/modals/edit_xblock.js:151
-#: cms/static/js/views/video_transcripts.js:325
-#: lms/static/js/student_account/enrollment.js:87
-#: lms/static/js/student_account/tos_modal.js:48
-#: xmodule/js/src/html/edit.js:370
-#: cms/templates/js/course-video-settings.underscore:6
-#: common/static/common/templates/discussion/templates.underscore:417
-#: common/static/common/templates/discussion/templates.underscore:820
-#: common/static/common/templates/discussion/templates.underscore:822
-#: common/static/common/templates/discussion/templates.underscore:870
-#: common/static/common/templates/image-modal.underscore:19
-msgid "Close"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:28
-msgid "Upload Videos"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:30
-msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:57
-msgid "Maximum file size: {maxFileSize} GB"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:63
-msgid "Supported file types: {supportedVideoTypes}"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:156
-msgid "Your video uploads are not complete."
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:297
-msgid "Upload completed for video {fileName}"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:331
-#: cms/static/js/views/active_video_upload_list.js:355
-msgid "Upload failed for video {fileName}"
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:384
-msgid ""
-"{filename} is not in a supported file format. Supported file formats are "
-"{supportedFileFormats}."
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:391
-msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:426
-msgid ": video upload complete."
-msgstr ""
-
-#: cms/static/js/views/active_video_upload_list.js:435
-msgid "Previous Uploads table has been updated."
-msgstr ""
-
 #: cms/static/js/views/asset.js:53
 msgid "Delete File Confirmation"
 msgstr ""
@@ -605,7 +471,6 @@ msgstr ""
 #: cms/static/js/views/assets.js:110 xmodule/js/src/html/edit.js:840
 #: cms/templates/js/asset-library.underscore:19
 #: cms/templates/js/course-instructor-details.underscore:3
-#: cms/templates/js/previous-video-upload-list.underscore:14
 #: cms/templates/js/signatory-details.underscore:13
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:20
 msgid "Name"
@@ -613,7 +478,6 @@ msgstr ""
 
 #: cms/static/js/views/assets.js:111
 #: cms/templates/js/asset-library.underscore:52
-#: cms/templates/js/previous-video-upload-list.underscore:15
 msgid "Date Added"
 msgstr ""
 
@@ -633,8 +497,16 @@ msgid ""
 "it: {maxFileSizeRedirectUrl}"
 msgstr ""
 
+#: cms/static/js/views/assets.js:213
+msgid "Your file could not be uploaded"
+msgstr ""
+
 #: cms/static/js/views/assets.js:219
 msgid "Max file size exceeded"
+msgstr ""
+
+#: cms/static/js/views/assets.js:241 lms/static/js/views/image_field.js:21
+msgid "Uploading"
 msgstr ""
 
 #: cms/static/js/views/assets.js:261 lms/static/js/Markdown.Editor.js:1093
@@ -659,7 +531,7 @@ msgstr ""
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:652
+#: cms/static/js/views/pages/container.js:687
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr ""
@@ -678,8 +550,8 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:424
-#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:434
+#: cms/static/js/views/pages/container.js:446
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -689,7 +561,7 @@ msgid "OK"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:779
+#: cms/static/js/views/pages/container.js:814
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr ""
@@ -699,31 +571,31 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:395
+#: cms/static/js/views/pages/container.js:405
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/pages/container.js:429
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:421
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:439
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:432
+#: cms/static/js/views/pages/container.js:442
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version "
@@ -731,25 +603,25 @@ msgid ""
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/pages/container.js:451
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/pages/container.js:453
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:448
+#: cms/static/js/views/pages/container.js:458
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr ""
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:457
+#: cms/static/js/views/pages/container.js:467
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr ""
@@ -760,76 +632,6 @@ msgstr ""
 
 #: cms/static/js/views/course_rerun.js:60
 msgid "Processing Re-run Request"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:25
-msgid "An error has occurred. Wait a few minutes, and then try again."
-msgstr ""
-
-#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/course_video_settings.js:266
-#: xmodule/js/src/html/edit.js:870
-#: cms/templates/js/timed-examination-preference-editor.underscore:23
-msgid "None"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:307
-msgid "Select turnaround"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:335
-msgid "Select fidelity"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:387
-#: cms/static/js/views/course_video_settings.js:423
-msgid "Select language"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:362
-#: cms/static/js/views/previous_video_upload.js:78
-#: cms/static/js/views/video_transcripts.js:270
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
-#: lms/static/js/views/image_field.js:19
-#: cms/templates/js/video/metadata-translations-item.underscore:2
-#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore:14
-msgid "Remove"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:475
-msgid "Press Remove to remove language"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:485
-msgid "Settings updated"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:494
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
-msgid "Last updated"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:557
-msgid "Required"
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:682
-msgid "Automatic transcripts are disabled."
-msgstr ""
-
-#: cms/static/js/views/course_video_settings.js:719
-msgid "{selectedProvider} credentials saved"
-msgstr ""
-
-#: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%- name %>”"
-msgstr ""
-
-#: cms/static/js/views/edit_chapter.js:64
-msgid "Please select a PDF file to upload."
 msgstr ""
 
 #: cms/static/js/views/export.js:312
@@ -1063,6 +865,14 @@ msgstr ""
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr ""
 
+#: cms/static/js/views/metadata.js:362
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
+#: lms/static/js/views/image_field.js:19
+#: cms/templates/js/video/metadata-translations-item.underscore:2
+#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore:14
+msgid "Remove"
+msgstr ""
+
 #: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr ""
@@ -1070,13 +880,12 @@ msgstr ""
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: cms/static/js/views/modals/base_modal.js:45
+#: cms/static/js/views/modals/base_modal.js:46
 #: cms/static/js/views/modals/course_outline_modals.js:259
 #: xmodule/js/src/html/edit.js:1040
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
 #: cms/templates/js/group-configuration-editor.underscore:45
 #: cms/templates/js/section-name-edit.underscore:3
 #: cms/templates/js/signatory-actions.underscore:3
@@ -1127,6 +936,22 @@ msgstr ""
 msgid "Share {display_name} subsection"
 msgstr ""
 
+#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/course_outline_modals.js:351
+#: cms/static/js/views/modals/edit_xblock.js:153
+#: lms/static/js/student_account/enrollment.js:87
+#: lms/static/js/student_account/tos_modal.js:48
+#: xmodule/js/src/html/edit.js:370
+#: common/static/common/templates/discussion/templates.underscore:417
+#: common/static/common/templates/discussion/templates.underscore:820
+#: common/static/common/templates/discussion/templates.underscore:822
+#: common/static/common/templates/discussion/templates.underscore:870
+#: common/static/common/templates/image-modal.underscore:19
+msgid "Close"
+msgstr ""
+
 #: cms/static/js/views/modals/course_outline_modals.js:973
 msgid "All Learners and Staff"
 msgstr ""
@@ -1161,23 +986,23 @@ msgstr ""
 msgid "Editing: {title}"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:124
+#: cms/static/js/views/modals/edit_xblock.js:125
 msgid "Plugins"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:159
+#: cms/static/js/views/modals/edit_xblock.js:161
 #: cms/static/js/views/modals/preview_v2_library_changes.js:76
 #: lms/templates/ccx/schedule.underscore:13
 #: lms/templates/ccx/schedule.underscore:83
 msgid "Unit"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:161
+#: cms/static/js/views/modals/edit_xblock.js:163
 #: cms/static/js/views/modals/preview_v2_library_changes.js:78
 msgid "Component"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js:207
+#: cms/static/js/views/modals/edit_xblock.js:209
 msgid "Studio's having trouble parsing the problem component's content"
 msgstr ""
 
@@ -1276,7 +1101,7 @@ msgstr ""
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:731
+#: cms/static/js/views/pages/container.js:766
 msgid "Editing access for: {title}"
 msgstr ""
 
@@ -1286,8 +1111,6 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js:231
 #: cms/static/js/views/pages/container_subviews.js:233
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:2
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:2
 #: cms/templates/js/publish-xblock.underscore:126
 msgid "Discard Changes"
 msgstr ""
@@ -1336,6 +1159,10 @@ msgstr ""
 
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
+msgstr ""
+
+#: cms/static/js/views/pages/group_configurations.js:84
+msgid "You have unsaved changes. Do you really want to leave this page?"
 msgstr ""
 
 #: cms/static/js/views/pages/paged_container.js:46
@@ -1401,23 +1228,6 @@ msgstr ""
 msgid "You have not created any content groups yet."
 msgstr ""
 
-#: cms/static/js/views/previous_video_upload.js:76
-msgid "Are you sure you want to remove this video from the list?"
-msgstr ""
-
-#: cms/static/js/views/previous_video_upload.js:77
-msgid ""
-"Removing a video from this list does not affect course content. Any content "
-"that uses a previously uploaded video ID continues to display in the course."
-msgstr ""
-
-#: cms/static/js/views/previous_video_upload.js:81
-#: cms/static/js/views/video/translations_editor.js:177
-#: cms/static/js/views/video_transcripts.js:273
-#: lms/static/js/views/image_field.js:22
-msgid "Removing"
-msgstr ""
-
 #: cms/static/js/views/settings/advanced.js:70
 msgid ""
 "Your changes will not take effect until you save your progress. Take care "
@@ -1465,25 +1275,6 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
-msgstr ""
-
-#: cms/static/js/views/show_textbook.js:33
-msgid "Delete “<%- name %>”?"
-msgstr ""
-
-#: cms/static/js/views/show_textbook.js:36
-msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in "
-"your courseware's navigation will also be removed."
-msgstr ""
-
-#: cms/static/js/views/tabs.js:160
-msgid "Delete Page Confirmation"
-msgstr ""
-
-#: cms/static/js/views/tabs.js:161
-msgid ""
-"Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
 
 #: cms/static/js/views/uploads.js:30
@@ -1646,7 +1437,6 @@ msgid ""
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js:172
-#: cms/static/js/views/video_transcripts.js:268
 msgid "Are you sure you want to remove this transcript?"
 msgstr ""
 
@@ -1660,149 +1450,13 @@ msgstr ""
 msgid "Remove Transcript"
 msgstr ""
 
+#: cms/static/js/views/video/translations_editor.js:177
+#: lms/static/js/views/image_field.js:22
+msgid "Removing"
+msgstr ""
+
 #: cms/static/js/views/video/translations_editor.js:225
 msgid "Upload translation"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:31
-msgid "Add Thumbnail"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:35
-msgid "Edit Thumbnail"
-msgstr ""
-
-#. Translators: This is a 2 part text which tells the image requirements.
-#: cms/static/js/views/video_thumbnail.js:39
-msgid ""
-"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
-"{videoImageSupportedFileFormats}{spanEnd}"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:52
-msgid "Image upload failed"
-msgstr ""
-
-#. Translators: This is a 3 part text which tells the image requirements.
-#: cms/static/js/views/video_thumbnail.js:64
-msgid ""
-"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}"
-"{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
-msgstr ""
-
-#. Translators: message will be like 1280x720 pixels
-#: cms/static/js/views/video_thumbnail.js:130
-msgid "{maxWidth}x{maxHeight} pixels"
-msgstr ""
-
-#. Translators: message will be like Thumbnail for Arrow.mp4
-#: cms/static/js/views/video_thumbnail.js:138
-msgid "Thumbnail for {videoName}"
-msgstr ""
-
-#. Translators: message will be like Add Thumbnail - Arrow.mp4
-#: cms/static/js/views/video_thumbnail.js:146
-msgid "Add Thumbnail - {videoName}"
-msgstr ""
-
-#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
-#. minutes etc
-#: cms/static/js/views/video_thumbnail.js:172
-msgid "Video duration is {humanizeDuration}"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:189
-msgid "minutes"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:189
-msgid "minute"
-msgstr ""
-
-#. Translators: message will be like 15 minutes, 1 minute
-#: cms/static/js/views/video_thumbnail.js:192
-msgid "{minutes} {unit}"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:198
-msgid "seconds"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:198
-msgid "second"
-msgstr ""
-
-#. Translators: message will be like 20 seconds, 1 second
-#: cms/static/js/views/video_thumbnail.js:201
-msgid "{seconds} {unit}"
-msgstr ""
-
-#. Translators: `and` will be used to combine both miuntes and seconds like
-#. `13 minutes and 45 seconds`
-#: cms/static/js/views/video_thumbnail.js:207
-msgid " and "
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:234
-msgid "Video image upload started"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:246
-msgid "Video image upload completed"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:321
-msgid ""
-"This image file type is not supported. Supported file types are "
-"{supportedFileFormats}."
-msgstr ""
-
-#. Translators: maxFileSizeInMB will be like 2 MB.
-#: cms/static/js/views/video_thumbnail.js:330
-msgid "The selected image must be smaller than {maxFileSizeInMB}."
-msgstr ""
-
-#. Translators: minFileSizeInKB will be like 2 KB.
-#: cms/static/js/views/video_thumbnail.js:338
-msgid "The selected image must be larger than {minFileSizeInKB}."
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:366
-msgid "Could not upload the video image file"
-msgstr ""
-
-#: cms/static/js/views/video_thumbnail.js:368
-msgid "Image upload failed. "
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:32
-msgid "The file could not be uploaded."
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:130
-msgid "Hide transcripts ({transcriptCount})"
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:149
-msgid "Show transcripts ({transcriptCount})"
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:167
-msgid ""
-"This file type is not supported. Supported file type is "
-"{supportedFileFormat}."
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:228
-#: cms/templates/js/video-transcripts.underscore:27
-#, python-brace-format
-msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
-msgstr ""
-
-#: cms/static/js/views/video_transcripts.js:269
-msgid ""
-"If you remove this transcript, the transcript will not be available for any "
-"components that use this video."
 msgstr ""
 
 #: cms/static/js/views/xblock_editor.js:49
@@ -2121,26 +1775,6 @@ msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js:31
 msgid "Please enter your %(field)s."
-msgstr ""
-
-#: common/static/js/capa/drag_and_drop/base_image.js:14
-msgid "Drop target image"
-msgstr ""
-
-#: common/static/js/capa/drag_and_drop/draggable_events.js:86
-msgid "dragging out of slider"
-msgstr ""
-
-#: common/static/js/capa/drag_and_drop/draggable_events.js:88
-msgid "dragging"
-msgstr ""
-
-#: common/static/js/capa/drag_and_drop/draggable_events.js:110
-msgid "dropped in slider"
-msgstr ""
-
-#: common/static/js/capa/drag_and_drop/draggable_events.js:112
-msgid "dropped on target"
 msgstr ""
 
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
@@ -4538,7 +4172,7 @@ msgid "Loading your courses"
 msgstr ""
 
 #: lms/static/js/student_account/views/FormView.js:20
-#: lms/static/js/student_account/views/RegisterView.js:150
+#: lms/static/js/student_account/views/RegisterView.js:151
 msgid "An error occurred."
 msgstr ""
 
@@ -4603,20 +4237,20 @@ msgstr ""
 msgid "We couldn't create your account."
 msgstr ""
 
-#: lms/static/js/student_account/views/RegisterView.js:66
-#: lms/templates/student_account/register.underscore:69
+#: lms/static/js/student_account/views/RegisterView.js:67
+#: lms/templates/student_account/register.underscore:71
 msgid "Create Account"
 msgstr ""
 
-#: lms/static/js/student_account/views/RegisterView.js:339
+#: lms/static/js/student_account/views/RegisterView.js:341
 msgid "(required)"
 msgstr ""
 
-#: lms/static/js/student_account/views/RegisterView.js:516
+#: lms/static/js/student_account/views/RegisterView.js:518
 msgid "You've successfully signed into %(currentProvider)s."
 msgstr ""
 
-#: lms/static/js/student_account/views/RegisterView.js:518
+#: lms/static/js/student_account/views/RegisterView.js:520
 msgid ""
 "We just need a little more information before you start learning with "
 "%(platformName)s."
@@ -4838,14 +4472,244 @@ msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/assets/library_content/public/js/library_content_edit.js:16
-#: xmodule/js/public/js/library_content_edit.js:16
+#: xmodule/assets/library_content/public/js/library_content_edit.js:44
+#: xmodule/js/public/js/library_content_edit.js:44
 msgid "Updating with latest library content"
+msgstr ""
+
+#: xmodule/assets/library_content/public/js/library_content_edit.js:64
+#: xmodule/js/public/js/library_content_edit.js:64
+msgid "Migrating to Problem Bank"
 msgstr ""
 
 #: xmodule/assets/split_test/public/js/split_test_author_view.js:12
 #: xmodule/js/public/js/split_test_author_view.js:12
 msgid "Creating missing groups"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:10
+#: xmodule/assets/video/public/js/09_play_pause_control.js:31
+#: xmodule/assets/video/public/js/09_play_pause_control.js:89
+#: xmodule/assets/video/public/js/09_play_skip_control.js:28
+msgid "Play"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:11
+#: xmodule/assets/video/public/js/09_play_pause_control.js:79
+msgid "Pause"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:12
+msgid "Mute"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:13
+msgid "Unmute"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:14
+#: xmodule/assets/video/public/js/04_video_full_screen.js:227
+msgid "Exit full browser"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:16
+#: xmodule/assets/video/public/js/08_video_speed_control.js:43
+msgid "Speed"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:17
+#: xmodule/assets/video/public/js/08_video_auto_advance_control.js:38
+#: xmodule/js/src/video/08_video_auto_advance_control.js:40
+msgid "Auto-advance"
+msgstr ""
+
+#: xmodule/assets/video/public/js/00_i18n.js:18
+#: xmodule/assets/video/public/js/07_video_volume_control.js:70
+msgid "Volume"
+msgstr ""
+
+#. Translators: Volume level equals 0%.
+#: xmodule/assets/video/public/js/00_i18n.js:20
+msgid "Muted"
+msgstr ""
+
+#. Translators: Volume level in range ]0,20]%
+#: xmodule/assets/video/public/js/00_i18n.js:22
+msgid "Very low"
+msgstr ""
+
+#. Translators: Volume level in range ]20,40]%
+#: xmodule/assets/video/public/js/00_i18n.js:24
+msgid "Low"
+msgstr ""
+
+#. Translators: Volume level in range ]40,60]%
+#: xmodule/assets/video/public/js/00_i18n.js:26
+msgid "Average"
+msgstr ""
+
+#. Translators: Volume level in range ]60,80]%
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr ""
+
+#. Translators: Volume level in range ]80,99]%
+#: xmodule/assets/video/public/js/00_i18n.js:30
+msgid "Very loud"
+msgstr ""
+
+#. Translators: Volume level equals 100%.
+#: xmodule/assets/video/public/js/00_i18n.js:32
+msgid "Maximum"
+msgstr ""
+
+#: xmodule/assets/video/public/js/02_html5_video.js:82
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr ""
+
+#: xmodule/assets/video/public/js/02_html5_video.js:83
+msgid "Try using a different browser, such as Google Chrome."
+msgstr ""
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:22
+msgid "High Definition"
+msgstr ""
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:23
+#: xmodule/assets/video/public/js/05_video_quality_control.js:156
+msgid "off"
+msgstr ""
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:150
+msgid "on"
+msgstr ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:11
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:102
+msgid "Video position. Press space to toggle playback"
+msgstr ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:299
+msgid "Video ended"
+msgstr ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:303
+msgid "Video position"
+msgstr ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:319
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:322
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:325
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:68
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr ""
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:69
+msgid "Adjust video volume"
+msgstr ""
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:33
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr ""
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:37
+msgid "Adjust video speed"
+msgstr ""
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_play_skip_control.js:77
+msgid "Skip"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_poster.js:25
+msgid "Play video"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_skip_control.js:31
+msgid "Do not show again"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:105
+msgid "Open language menu"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:628
+msgid "Transcript will be displayed when you start playing the video."
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:876
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:879
+msgid "Video transcript"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:882
+msgid "Start of transcript. Skip to the end."
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:886
+msgid "End of transcript. Skip to the start."
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:890
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow "
+"keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1246
+msgid "Hide closed captions"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1264
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1271
+msgid "Turn on closed captioning"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1379
+msgid "Turn on transcripts"
+msgstr ""
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1394
+msgid "Turn off transcripts"
 msgstr ""
 
 #: xmodule/assets/word_cloud/src/js/word_cloud_main.js:258
@@ -4890,7 +4754,7 @@ msgstr ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:235
+#: xmodule/js/src/capa/display.js:248
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
 msgstr[0] ""
@@ -4898,7 +4762,7 @@ msgstr[1] ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:242
+#: xmodule/js/src/capa/display.js:255
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
 msgstr[0] ""
@@ -4906,7 +4770,7 @@ msgstr[1] ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:253
+#: xmodule/js/src/capa/display.js:266
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
 msgstr[0] ""
@@ -4914,7 +4778,7 @@ msgstr[1] ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:259
+#: xmodule/js/src/capa/display.js:273
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
 msgstr[0] ""
@@ -4924,7 +4788,7 @@ msgstr[1] ""
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:269
+#: xmodule/js/src/capa/display.js:284
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
 msgstr[0] ""
@@ -4934,54 +4798,54 @@ msgstr[1] ""
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:276
+#: xmodule/js/src/capa/display.js:292
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
 "file uploads."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr ""
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr ""
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr ""
 
@@ -5347,7 +5211,6 @@ msgstr ""
 #: cms/templates/js/course_info_update.underscore:20
 #: cms/templates/js/group-configuration-details.underscore:45
 #: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
 #: cms/templates/js/signatory-details.underscore:5
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
@@ -5502,7 +5365,7 @@ msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
 msgstr ""
 
@@ -5761,6 +5624,14 @@ msgstr ""
 msgid "Nonbreaking space"
 msgstr ""
 
+#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: xmodule/js/src/html/edit.js:870
+#: cms/templates/js/timed-examination-preference-editor.underscore:23
+msgid "None"
+msgstr ""
+
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:875
@@ -5864,7 +5735,6 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:980 xmodule/js/src/html/edit.js:985
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
-#: cms/templates/js/video-transcripts.underscore:45
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Replace"
 msgstr ""
@@ -6213,269 +6083,10 @@ msgid ""
 "Click Cancel to return to this page without sending your information."
 msgstr ""
 
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and "
-"you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:406 xmodule/js/src/problem/edit.js:439
-#: xmodule/js/src/problem/edit.js:502
-msgid ""
-"An answer option has been left blank. Please review and edit the component."
-msgstr ""
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr ""
-
 #: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:15
-#: xmodule/js/src/video/09_play_pause_control.js:30
-#: xmodule/js/src/video/09_play_pause_control.js:88
-#: xmodule/js/src/video/09_play_skip_control.js:30
-msgid "Play"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:16
-#: xmodule/js/src/video/09_play_pause_control.js:78
-msgid "Pause"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:17
-msgid "Mute"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:18
-msgid "Unmute"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:19
-#: xmodule/js/src/video/04_video_full_screen.js:229
-msgid "Exit full browser"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:20
-#: xmodule/js/src/video/04_video_full_screen.js:7
-#: xmodule/js/src/video/04_video_full_screen.js:9
-#: xmodule/js/src/video/04_video_full_screen.js:201
-msgid "Fill browser"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:21
-#: xmodule/js/src/video/08_video_speed_control.js:46
-msgid "Speed"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr ""
-
-#: xmodule/js/src/video/00_i18n.js:23
-#: xmodule/js/src/video/07_video_volume_control.js:72
-msgid "Volume"
-msgstr ""
-
-#. Translators: Volume level equals 0%.
-#: xmodule/js/src/video/00_i18n.js:25
-msgid "Muted"
-msgstr ""
-
-#. Translators: Volume level in range ]0,20]%
-#: xmodule/js/src/video/00_i18n.js:27
-msgid "Very low"
-msgstr ""
-
-#. Translators: Volume level in range ]20,40]%
-#: xmodule/js/src/video/00_i18n.js:29
-msgid "Low"
-msgstr ""
-
-#. Translators: Volume level in range ]40,60]%
-#: xmodule/js/src/video/00_i18n.js:31
-msgid "Average"
-msgstr ""
-
-#. Translators: Volume level in range ]60,80]%
-#: xmodule/js/src/video/00_i18n.js:33
-msgid "Loud"
-msgstr ""
-
-#. Translators: Volume level in range ]80,99]%
-#: xmodule/js/src/video/00_i18n.js:35
-msgid "Very loud"
-msgstr ""
-
-#. Translators: Volume level equals 100%.
-#: xmodule/js/src/video/00_i18n.js:37
-msgid "Maximum"
-msgstr ""
-
-#: xmodule/js/src/video/02_html5_video.js:87
-msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr ""
-
-#: xmodule/js/src/video/02_html5_video.js:88
-msgid "Try using a different browser, such as Google Chrome."
-msgstr ""
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr ""
-
-#: xmodule/js/src/video/05_video_quality_control.js:26
-#: xmodule/js/src/video/05_video_quality_control.js:159
-msgid "off"
-msgstr ""
-
-#: xmodule/js/src/video/05_video_quality_control.js:153
-msgid "on"
-msgstr ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:16
-#: xmodule/js/src/video/06_video_progress_slider.js:107
-msgid "Video position. Press space to toggle playback"
-msgstr ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:304
-msgid "Video ended"
-msgstr ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:308
-msgid "Video position"
-msgstr ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:324
-msgid "%(value)s hour"
-msgid_plural "%(value)s hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:327
-msgid "%(value)s minute"
-msgid_plural "%(value)s minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: xmodule/js/src/video/06_video_progress_slider.js:330
-msgid "%(value)s second"
-msgid_plural "%(value)s seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: xmodule/js/src/video/07_video_volume_control.js:70
-msgid ""
-"Click on this button to mute or unmute this video or press UP or DOWN "
-"buttons to increase or decrease volume level."
-msgstr ""
-
-#: xmodule/js/src/video/07_video_volume_control.js:71
-msgid "Adjust video volume"
-msgstr ""
-
-#: xmodule/js/src/video/08_video_speed_control.js:36
-msgid ""
-"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
-"navigate the different speeds, then press ENTER to change to the selected "
-"speed."
-msgstr ""
-
-#: xmodule/js/src/video/08_video_speed_control.js:40
-msgid "Adjust video speed"
-msgstr ""
-
-#: xmodule/js/src/video/08_video_speed_control.js:271
-msgid "Video speed: "
-msgstr ""
-
-#: xmodule/js/src/video/09_play_skip_control.js:79
-msgid "Skip"
-msgstr ""
-
-#: xmodule/js/src/video/09_poster.js:31
-msgid "Play video"
-msgstr ""
-
-#: xmodule/js/src/video/09_skip_control.js:33
-msgid "Do not show again"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:107
-msgid "Open language menu"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:630
-msgid "Transcript will be displayed when you start playing the video."
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:878
-msgid ""
-"Activating a link in this group will skip to the corresponding point in the "
-"video."
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:881
-msgid "Video transcript"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:884
-msgid "Start of transcript. Skip to the end."
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:888
-msgid "End of transcript. Skip to the start."
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:892
-msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow "
-"keys to navigate language options. Press ENTER to change to the selected "
-"language."
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:1248
-msgid "Hide closed captions"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:1266
-msgid "(Caption will be displayed when you start playing the video.)"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:1273
-msgid "Turn on closed captioning"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:1381
-msgid "Turn on transcripts"
-msgstr ""
-
-#: xmodule/js/src/video/09_video_caption.js:1396
-msgid "Turn off transcripts"
 msgstr ""
 
 #: cms/templates/js/access-editor.underscore:3
@@ -6520,18 +6131,6 @@ msgstr ""
 
 #: cms/templates/js/access-editor.underscore:51
 msgid "Make this subsection available as a prerequisite to other content"
-msgstr ""
-
-#: cms/templates/js/active-video-upload-list.underscore:14
-msgid "Active Uploads"
-msgstr ""
-
-#: cms/templates/js/active-video-upload.underscore:8
-msgid "Read More"
-msgstr ""
-
-#: cms/templates/js/active-video-upload.underscore:9
-msgid "details about the failure"
 msgstr ""
 
 #: cms/templates/js/add-xblock-component-button.underscore:7
@@ -6595,7 +6194,7 @@ msgid "Show All"
 msgstr ""
 
 #: cms/templates/js/asset-library.underscore:57
-#: cms/templates/js/basic-modal.underscore:26
+#: cms/templates/js/basic-modal.underscore:29
 #: cms/templates/js/course-outline.underscore:201
 #: cms/templates/js/course-outline.underscore:203
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
@@ -6640,6 +6239,10 @@ msgstr ""
 
 #: cms/templates/js/asset.underscore:43
 msgid "Lock/unlock file"
+msgstr ""
+
+#: cms/templates/js/basic-modal.underscore:7
+msgid "Toggle Fullscreen"
 msgstr ""
 
 #: cms/templates/js/certificate-details.underscore:11
@@ -7126,84 +6729,12 @@ msgstr ""
 msgid "Add a learning outcome here"
 msgstr ""
 
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
-msgid "Press discard changes to discard your changes."
-msgstr ""
-
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
-msgid "Update Settings"
-msgstr ""
-
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
-msgid "Press update settings to update the information for your organization."
-msgstr ""
-
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
-msgid "Press discard changes to discard changes."
-msgstr ""
-
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
-msgid "Press update settings to update course video settings"
-msgstr ""
-
-#: cms/templates/js/course-video-settings.underscore:7
-msgid "Press close to hide course video settings"
-msgstr ""
-
-#: cms/templates/js/course-video-settings.underscore:13
-msgid "Course Video Settings"
-msgstr ""
-
 #: cms/templates/js/course-video-sharing-enable.underscore:3
 msgid "Video Sharing"
 msgstr ""
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:3
-msgid "Transcript Turnaround"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:8
-msgid "Transcript Fidelity"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:13
-msgid "Video Source Language"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:18
-msgid "Transcript Languages"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:25
-#: cms/templates/js/metadata-dict-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:9
-#: cms/templates/js/video/metadata-translations-entry.underscore:7
-msgid "Add"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:25
-msgid "Press Add to language"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
-msgid "Automated Transcripts"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
-msgid "Transcript Provider"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:5
-msgid "Change"
-msgstr ""
-
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
-msgid "Press change to change selected transcript provider."
 msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:3
@@ -7371,32 +6902,6 @@ msgstr ""
 
 #: cms/templates/js/edit-chapter.underscore:14
 msgid "delete chapter"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:10
-msgid "Textbook information"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:12
-msgid "Textbook Name"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:13
-msgid "Introduction to Cookie Baking"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:18
-msgid "Chapter information"
-msgstr ""
-
-#: cms/templates/js/edit-textbook.underscore:21
-msgid "Add a Chapter"
 msgstr ""
 
 #: cms/templates/js/edit-title-button.underscore:1
@@ -7582,6 +7087,12 @@ msgstr ""
 msgid "New %(item_type)s"
 msgstr ""
 
+#: cms/templates/js/metadata-dict-entry.underscore:6
+#: cms/templates/js/metadata-list-entry.underscore:9
+#: cms/templates/js/video/metadata-translations-entry.underscore:7
+msgid "Add"
+msgstr ""
+
 #: cms/templates/js/metadata-dict-entry.underscore:9
 #: cms/templates/js/metadata-file-uploader-entry.underscore:5
 #: cms/templates/js/metadata-list-entry.underscore:12
@@ -7603,7 +7114,6 @@ msgid "Clear Value"
 msgstr ""
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:2
-#: cms/templates/js/video-transcripts.underscore:42
 #: cms/templates/js/video/metadata-translations-item.underscore:8
 msgid "Download"
 msgstr ""
@@ -7621,14 +7131,6 @@ msgstr ""
 msgid "Currently selected"
 msgstr ""
 
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "You haven't added any textbooks to this course yet."
-msgstr ""
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "Add your first textbook"
-msgstr ""
-
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
 #: common/static/common/templates/discussion/templates.underscore:586
@@ -7644,46 +7146,6 @@ msgstr ""
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:2
-msgid "Previous Uploads"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:5
-msgid "Download available encodings (.csv)"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:12
-msgid "Thumbnail"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:16
-msgid "Video ID"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:17
-msgid "Transcripts"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:18
-msgid "Video Status"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload-list.underscore:19
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
-#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:25
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
-msgid "Action"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload.underscore:13
-msgid "Remove this video"
-msgstr ""
-
-#: cms/templates/js/previous-video-upload.underscore:15
-#, python-brace-format
-msgid "Remove {video_name} video"
 msgstr ""
 
 #: cms/templates/js/publish-history.underscore:2
@@ -7860,12 +7322,17 @@ msgid ""
 "when they submit answers to assessments."
 msgstr ""
 
-#: cms/templates/js/show-textbook.underscore:12
-msgid "PDF Chapters"
+#: cms/templates/js/show-correctness-editor.underscore:40
+msgid ""
+"Never show individual assessment results, but show overall assessment "
+"results after due date"
 msgstr ""
 
-#: cms/templates/js/show-textbook.underscore:37
-msgid "View Live"
+#: cms/templates/js/show-correctness-editor.underscore:43
+msgid ""
+"Learners do not see question-level correctness or scores before or after the "
+"due date. However, once the due date passes, they can see their overall "
+"score for the subsection on the Progress page."
 msgstr ""
 
 #: cms/templates/js/signatory-details.underscore:9
@@ -8209,26 +7676,6 @@ msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this unit. Learners who do not require verification see this "
 "content by default."
-msgstr ""
-
-#: cms/templates/js/video-thumbnail.underscore:17
-#, python-brace-format
-msgid ""
-"Recommended image resolution is {imageResolution}, maximum image file size "
-"should be {maxFileSize} and format must be one of {supportedImageFormats}."
-msgstr ""
-
-#: cms/templates/js/video-transcript-upload-status.underscore:4
-msgid "Read more"
-msgstr ""
-
-#: cms/templates/js/video-transcripts.underscore:9
-msgid "No transcript uploaded."
-msgstr ""
-
-#: cms/templates/js/video-transcripts.underscore:17
-#, python-brace-format
-msgid "Show transcripts ({totalTranscripts})"
 msgstr ""
 
 #: cms/templates/js/xblock-access-editor.underscore:3
@@ -8953,6 +8400,12 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:23
 msgid "Password Status"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
+msgid "Action"
 msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:35
@@ -10111,7 +9564,7 @@ msgstr ""
 msgid "or create a new one here"
 msgstr ""
 
-#: lms/templates/student_account/register.underscore:63
+#: lms/templates/student_account/register.underscore:64
 msgid "Support education research by providing additional information"
 msgstr ""
 
